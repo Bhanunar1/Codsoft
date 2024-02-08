@@ -25,9 +25,16 @@ int main()
 			cout<<n1*n2;
 			break;
 		case '/':
-			cout<<"Division of number:";
-			cout<<n1/n2;
-			break;
+			if(n1==0)
+			{
+			    cout<<"it is not divided by zero";
+			}
+			else
+			{
+			    cout<<"Division of number:";
+	     		    cout<<n1/n2;
+		        }
+		        break;
 		default:
 			cout<<"invalid choice:";
 			break;
